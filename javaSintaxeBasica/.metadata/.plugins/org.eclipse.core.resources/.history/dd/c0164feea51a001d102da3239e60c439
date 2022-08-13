@@ -1,0 +1,19 @@
+
+public class TestaWhile {
+
+	public static void main(String[] args) {
+		
+		int numero = 0;
+		
+		while (numero < 10) {
+			numero += 1;
+			System.out.println(numero);
+		}
+		
+		do {
+			numero += 1;
+			
+		} while (numero < 10);System.out.println("---------------------------");
+		System.out.println(numero);
+	}
+}
